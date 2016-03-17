@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/index-styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+var myCenter=new google.maps.LatLng(41.857013, -87.639268);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+
+var infowindow = new google.maps.InfoWindow({
+  content:"Chicago Coffee Center!"
+  });
+
+infowindow.open(map,marker);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+	
+</head>
+
+
+<body class="body">
+		<header class= "main-menu">
+			<div>
+				<div class= "logo"><a href="index.html">
+				<img src="assets/logos/logo_white.png" alt="Logo" height= "100px" ></a>
+				</div>
+				<nav>
+				<ul>
+				
+				<li><a href="About.html">About Us</a></li>
+				<li><a href="services.html">Products & Services</a></li>
+				<li><a href="Contact.html">Contact Us</a></li>
+				</ul>
+				</nav>
+				
+			</div>
+		</header>
+	
+	
+	
+<div class="mainContent">
+		<div class="content">	
+		
+				<article class="topcontent">	
+					
+						<h2>Contact Us</a></h2>					
+						<content>
+							<p>Whether you are an existing customer who needs to schedule a service call, talk to your sales rep or ask about our latest technologies, or you and your company are looking for more information on our services, our customer service department will handle your inquiry and get you to the person who can get you the information you are looking for.
+You may contact us by phone or by submitting the contact form below. Your business is important to us and we pledge to respond to your inquiry within 24 hours.
+<p>Mailing Address:<br>
+1826 S Canal St<br>
+Chicago, IL 60616</p>
+
+<p>Phone Number<br>
+800-555-1825<br>
+312-555-3000</p>
+
+
+</p>
+						</content>
+				
+				</article>
+				
+				<article class="bottomcontent">	
+						<div id="googleMap" style="width:550px;height:380px;"></div>
+
+
+				</article>
+		</div>
+		
+		<aside class="top-sidebar">
+		<article>
+			<form>
+
+				<h3>Please feel free to leave a msg below:</h3>
+
+				<h4><label>First Name:<input type="text" name="first_name" class="formsclass"></label></h4>
+
+				<h4><label>Last Name:<input type="text" name="last_name" class="formsclass"></label></h4>
+
+				<h4><label>Phone:<input type="tel" name="phone" class="formsclass"></label></h4>
+
+				<h4><label>Email:<input type="email" name="email" class="formsclass"></label></h4>
+
+				<h4><label>Comments:<br><textarea name="message" placeholder="Enter your message" class="formsclass"></textarea></label></h4>
+
+				<h4>Date: <input type="text" id="datepicker" size="10" class="formsclass" /></h4>
+ 
+				<h4><input type="submit" value="Submit" class="formsclass"></h4>
+
+
+			</form>
+		</article>
+		</aside>		
+</div>
+
+
+<div id="footer">
+    <p class= footerp1>
+		1826 S Canal St
+		Chicago, IL 60616
+		<a href="http://www.facebook.com"><img src="assets/images/facebook.png"  height="20px" width="20px"></a>
+	</p>
+	<p class= footerp2>
+		<a href="https://twitter.com/login"><img src="assets/images/twitter.png" height="20px" width="20px"></a>
+		Phone Number:
+		800-555-1825,
+		312-555-3000
+	</p>
+</div>	
+</body></html>

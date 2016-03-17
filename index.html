@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chicago Coffee Service</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/index-styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		var i=0;
+		var path = new Array();
+		
+		path[0] = "assets/images/1.jpg";
+		path[1] = "assets/images/2.jpg";
+		path[2] = "assets/images/3.jpg";
+		path[3] = "assets/images/4.jpg";
+		path[4] = "assets/images/5.jpg";
+		path[5] = "assets/images/6.jpg";
+		path[6] = "assets/images/7.jpg";
+		path[7] = "assets/images/8.jpg";
+		path[8] = "assets/images/9.jpg";
+		path[9] = "assets/images/10.jpg";
+		path[10] = "assets/images/11.jpg";
+		path[11] = "assets/images/12.jpg";
+		
+		
+		function swapImage(){
+			document.slide.src=path[i];
+			if(i<path.length-1)i++; else i=0;
+			setTimeout("swapImage()",1200);
+			}
+			window.onload=swapImage;
+			
+
+
+	</script>
+	
+</head>
+
+
+<body class="body">
+		<header class= "main-menu">
+			<div>
+				<div class= "logo"><a href="index.html">
+				<img src="assets/logos/logo_black.png" alt="Logo" height= "100px" ></a>
+				</div>
+				<nav>
+				<ul>
+				
+				<li><a href="About.html">About Us</a></li>
+				<li><a href="services.html">Products & Services</a></li>
+				<li><a href="Contact.html">Contact Us</a></li>
+				</ul>
+				</nav>
+				
+			</div>
+		</header>
+	
+	
+	
+<div class="mainContent">
+		<div class="content">	
+				<article class="topcontent">
+						<h1> Welcome To Chicago Coffee Service...!!</h1>
+						<img height="375" name="slide"  width="550" />
+				</article>
+		</div>
+		
+		<aside class="top-sidebar">
+					<article>
+					<h2>Featured Product</h2>
+					<img src="assets/images/b3000se.jpg" width=85% height="170px">
+					<p>The B3000/B3000SE Large Office Brewing System, the largest most advanced brewing system, is packed with features. The B3000/B3000SE is the way large offices make the coffee you, your office and your customers will love.
+</p>
+				    </article>
+				</aside>
+					
+</div>
+<div id="footer">
+    <p class= footerp1>
+		1826 S Canal St
+		Chicago, IL 60616
+		<a href="http://www.facebook.com"><img src="assets/images/facebook.png"  height="20px" width="20px"></a>
+	</p>
+	<p class= footerp2>
+		<a href="https://twitter.com/login"><img src="assets/images/twitter.png" height="20px" width="20px"></a>
+		Phone Number:
+		800-555-1825,
+		312-555-3000
+	</p>
+</div>
+	
+</body></html>

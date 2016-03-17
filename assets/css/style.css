@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(http://fonts.googleapis.com/css?family=Miltonian+Tattoo);
+
+
+body {
+	background-color: #E3B56A;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 87.5%
+	color: #FFF;
+	
+}
+.logo{
+  Height: 100px;
+  text-align: center;
+}
+.main-menu {
+	
+	top: 0px;
+    position: fixed;
+    background-color: #040302;
+    width: 100%;
+    text-align: center;
+    display: block;
+	height: auto;
+}
+
+.main-menu nav {
+	background-color: #040302;
+	height: 45px;
+}
+
+.main-menu nav ul{
+	list-style: none;
+	margin: 0 auto;
+    text-align: center;
+			
+}
+
+.main-menu nav ul li {
+	display: inline;
+}
+
+.main-menu nav a:link, .main-menu nav a:visited {
+	color:  white;
+	display: inline-block;
+	padding: 14px 25px;
+	text-decoration: none;
+	height: 17px;
+}
+
+.main-menu nav a:hover, .main-menu nav a:active, .main-menu nav .active a:link, .main-menu nav a.active a:visited {
+	background-color: #E3B56A;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.main-menu nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent a:hover, .mainContent a:active, .mainContent .active a:link,.mainContent  a.active a:visited{
+ text-decoration: none;
+ color: #FFF;
+}
+
+.content {
+    width: 65%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    overflow-x: hidden;
+    clear: both;
+    
+    margin-top: 16%;
+}
+
+
+
+
+
+.mainContent {
+	margin-top: 20%;
+	margin: 15px auto;
+	width: 70%;
+	clear: both;
+    overflow-x: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topcontent {
+	
+	background-color: #040302;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 5% 5%;	
+	margin-bottom: 3%;
+	color: #FFF;
+	overflow: hidden;
+	
+}
+
+.bottomcontent {
+	background-color: #040302;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 5% 5%;
+	overflow: hidden;
+}
+
+
+.top-sidebar {
+	margin-top: 16%;
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #040302;	
+	padding: 2% 3%;
+	margin-bottom: 2%;
+	color: #FFF;
+}
+.middle-sidebar {
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	
+	padding: 2% 3%;
+	margin-bottom: 2%;
+}
+
+#footer {
+    background-color: #040302;
+	width: 100%;
+	clear: both;
+	Height: 50px;
+	color: #FFF;
+}
+.footerp1 {
+		float: left;
+		margin-left: 20%;
+}	
+
+.footerp2 {
+		float: right;
+		margin-right: 20%;
+}	
+
+.formsclass {
+	-webkit-border-radius: 5px;
+    
+    
+	border-radius: 5px;
+	-webkit-box-shadow:  10px 5px 10px 0px rgba(1, 1, 1, 1);
+        
+        box-shadow:  10px 5px 10px 0px rgba(1, 1, 1, 1);
+
+}
+	
+h1,h2, h3, h4, h5 {
+	font-family: 'Miltonian Tattoo', cursive;
+	
+}
+
+#googleMaps {
+	background-color:red;
+	height:400px;
+	width:500px;
+	float:left;
+	margin-top:40px;
+
+}
+
+.content1 {
+    width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    overflow-x: hidden;
+    clear: both;
+    color: white;
+	text-align: center;
+    margin-top: 16%;
+	height=auto;
+}
+
+
+.top1content {
+	Height: auto;
+	background-color: #040302;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 5% 5%;
+	overflow: hidden;
+	padding: 5% 5%;	
+	margin-bottom: 3%;
+	color: #FFF;
+	overflow: hidden
+		
+}
+
+.firstcontent{
+    background-color: #040302;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 5% 5%;
+	overflow: hidden;
+	padding: 5% 5%;	
+	margin-bottom: 3%;
+	color: #FFF;
+	overflow: hidden
+
+} 
+td {
+  padding: 5% 5%;
+  background-color: #E3B56A;
+}
